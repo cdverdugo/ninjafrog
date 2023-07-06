@@ -4,15 +4,18 @@ body {
 	font-size: 30%;
 	line-height: 1.5;
 	text-align: center;
-	font-size: 80%;
+	font-size: 100%;
   color: #000000;
 	margin-top: 15%;
 	background-color: #ffffff77;
 	background-image: url("assets/ninjafrog.jpg");
   background-repeat: no-repeat;
-  background-size: 180%;
-  padding-left: 10%;
-  padding-right: 10%;
+  background-size: 120%;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: lighten;
+  padding-left: 20%;
+  padding-right: 20%;
   }
 header{
   margin-top: -10%;
@@ -60,6 +63,10 @@ img{
 footer {
 	padding: 2%;
 	text-align: center;
+  padding-top: 20%;
+}
+footer p{
+  margin-top: -3%;
 }
 
 .motto{
